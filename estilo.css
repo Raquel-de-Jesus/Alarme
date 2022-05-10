@@ -1,0 +1,55 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	background-color: #010105;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#clock {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 15vw;
+	background-image: linear-gradient(to bottom, #f538a4, #ec31a8, #e22bac, #d825b0, #cc22b4, #c634bc, #c041c3, #ba4cca, #b962d5, #ba76de, #bb88e6, #bd99ed);
+	background-clip: text;
+
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+}
+
+.controls {
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.button {
+	font-weight: bold;
+	border-radius: 9px;
+	box-shadow: 1px 1px #d3d3d3;
+	border: none;
+	color: white;
+	padding: 6px 9px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.set-alarm {
+	background-color: deeppink;
+}
+
+.clear-alarm {
+	background-color: skyblue;
+}
